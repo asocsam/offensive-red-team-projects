@@ -1,6 +1,4 @@
 
----
-
 # 🔴 Offensive Security Projects  
 
 ```markdown
