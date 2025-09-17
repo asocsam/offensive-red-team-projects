@@ -1,7 +1,4 @@
 
-# 🔴 Offensive Security Projects  
-
-```markdown
 # Offensive Security Projects 🔴  
 
 ## Overview  
