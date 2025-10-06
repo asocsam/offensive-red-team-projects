@@ -6,10 +6,15 @@ This repo contains my Red Team and offensive security research projects, built f
 > **Note:** Documentation and examples deliberately avoid referencing internal codenames such as "Codex" so that the focus stays on the tooling itself.
 
 ## Tools
-- **Python HTTPS Proxy** (`python-https-proxy/proxy.py`): Reverse HTTPS proxy that injects payloads into HTML/text responses for content-filter testing.
-- **Subdomain Takeover Scanner** (`subdomain-takeover-scanner/scanner.py`): Async reconnaissance utility that identifies dangling CNAME records pointing to cloud services with known takeover patterns.
-- **Bug Bounty Fuzzer** (`bug-bounty-fuzzer/fuzzer.py`): Concurrent HTTP fuzzing tool for parameters, headers and JSON payloads with baseline-aware analysis.
-- **CVE Replication Labs** (`cve-replication-labs/`): Docker-based playgrounds for CVE-2023-23397 (Outlook NTLM leak) and CVE-2023-38408 (OpenSSH RCE).
+- **Python HTTPS Proxy** (`python-https-proxy/proxy.py`): Reverse HTTPS proxy that
+  injects payloads into HTML/text responses for content-filter testing.
+- **Subdomain Takeover Scanner** (`subdomain-takeover-scanner/scanner.py`):
+  Async reconnaissance utility that identifies dangling CNAME records pointing
+  to cloud services with known takeover patterns.
+- **Bug Bounty Fuzzer** (`bug-bounty-fuzzer/fuzzer.py`): Concurrent HTTP fuzzing
+  tool for parameters, headers and JSON payloads with baseline-aware analysis.
+- **CVE Replication Labs** (`cve-replication-labs/`): Docker-based playgrounds
+  for CVE-2023-23397 (Outlook NTLM leak) and CVE-2023-38408 (OpenSSH RCE).
 
 ## Problem
 Defenders need hands-on exposure to offensive tools to understand adversary TTPs.
